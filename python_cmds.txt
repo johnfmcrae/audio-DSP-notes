@@ -1,0 +1,14 @@
+$ ipython // to enter
+Ctl-D // to exit
+In [n]:  from scipy.io.wavfile import read
+In [n]: import matplotlib.pyplot as plt // needs display
+
+python file.py //run code
+
+# comment
+...
+multi line comments
+...
+
+use <import numpy as np> to get arrays working, then spec using x = np.array([a, b, ...]) and access with x[n]
+

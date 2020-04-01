@@ -1,0 +1,24 @@
+git init
+git add "file"
+git commit -m "msg"
+git remote add origin "url"
+git push origin master
+
+git ls-files // list files in git
+git clean -d -n // view files that would eb cleaned
+git clean -d -i // choose what to do for each file
+
+git remote show origin
+git branch --show-current
+git remote set-url origin "url"	
+
+git pull origin master
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+git rm "file" // remove from git
+rm -rf .git // delete current git
+
+sudo rm -r <directory> // to remove a directory cloned from github
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
