@@ -22,3 +22,5 @@ rm -rf .git // delete current git
 sudo rm -r <directory> // to remove a directory cloned from github
 
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+git pull origin master --allow-unrelated-histories
